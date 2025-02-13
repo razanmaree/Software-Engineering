@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.StudentController">
+   <children>
+      <Label layoutX="68.0" layoutY="67.0" prefHeight="26.0" prefWidth="128.0" text="List Of Courses :">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="117.0">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="view_course_but" layoutX="400.0" layoutY="65.0" mnemonicParsing="false" onAction="#on_view_clicked" prefHeight="30.0" prefWidth="99.0" text="View Course ">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="68.0" layoutY="158.0" text="Exams To Perform :">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="perform_but" layoutX="613.0" layoutY="472.0" mnemonicParsing="false" onAction="#onPerformClicked" prefHeight="31.0" prefWidth="71.0" text="Perfom">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TableView fx:id="exams_to_exec_table" layoutX="132.0" layoutY="221.0" prefHeight="232.0" prefWidth="552.0">
+         <columns>
+            <TableColumn fx:id="subject_column" prefWidth="144.0" text="SUBJECT" />
+            <TableColumn fx:id="course_column" prefWidth="144.0" text="COURSE" />
+            <TableColumn fx:id="lecturer_column" prefWidth="164.0" text="LECTURER" />
+            <TableColumn fx:id="time_column" minWidth="7.20001220703125" prefWidth="99.0" text="TIME" />
+         </columns>
+      </TableView>
+      <ComboBox fx:id="coursesComboBox" layoutX="216.0" layoutY="67.0" onAction="#onSubjectSelected" prefHeight="25.0" prefWidth="159.0" />
+      <Button fx:id="logout" layoutX="853.0" layoutY="636.0" mnemonicParsing="false" onAction="#on_logOut_clicked" text="Log Out">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

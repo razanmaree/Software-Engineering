@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<!-- heeeeeeelo i'm changing you hkykgyuku-->
+
+<AnchorPane prefHeight="680.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.chooseQuestionToUpdateController">
+    <children>
+        <TableView fx:id="table_id" layoutX="23.0" layoutY="84.0" prefHeight="256.0" prefWidth="890.0">
+            <columns>
+                <TableColumn fx:id="body_id" prefWidth="136.79995346069336" text="TEXT" />
+                <TableColumn fx:id="fisrt_id" prefWidth="153.59996032714844" text="FIRST ANSWER" />
+                <TableColumn fx:id="second_id" prefWidth="184.800048828125" text="SECOND ANSWER" />
+                <TableColumn fx:id="third_id" minWidth="4.0" prefWidth="140.0" text="THIRD ANSWER" />
+                <TableColumn fx:id="fourth_id" minWidth="0.0" prefWidth="152.800048828125" text="FOURTH ANSWER" />
+                <TableColumn fx:id="rightAnswer_id" minWidth="4.79998779296875" prefWidth="96.7999267578125" text="RIGHT ANSWER" />
+            </columns>
+        </TableView>
+        <Button fx:id="display_but" layoutX="713.0" layoutY="365.0" mnemonicParsing="false" onAction="#OnDisplayButClicked" text="Update Selected Question">
+            <font>
+                <Font size="15.0" />
+            </font></Button>
+        <Button fx:id="cancel_but" layoutX="14.0" layoutY="636.0" mnemonicParsing="false" onAction="#Cancel" text="Back">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="logout" layoutX="844.0" layoutY="636.0" mnemonicParsing="false" onAction="#on_logOut_clicked" text="Log Out">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

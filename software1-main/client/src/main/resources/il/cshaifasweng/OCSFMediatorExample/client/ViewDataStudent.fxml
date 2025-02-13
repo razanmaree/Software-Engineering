@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.ViewDataStudentController">
+    <children>
+        <TableView fx:id="table" layoutX="140.0" layoutY="99.0" prefHeight="200.0" prefWidth="657.0">
+            <columns>
+                <TableColumn fx:id="Lecturers_comment_id" prefWidth="277.0" text="LECTURER'S COMMENT" />
+                <TableColumn fx:id="Student_comment" prefWidth="268.0" text="STUDENT'S COMMENT" />
+                <TableColumn fx:id="grade_id" minWidth="0.0" prefWidth="110.0" text="GRADE" />
+            </columns>
+        </TableView>
+        <Button fx:id="back_id" layoutX="14.0" layoutY="641.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+        <Button fx:id="show_id" layoutX="683.0" layoutY="321.0" mnemonicParsing="false" onAction="#ShowExam" text="Show Exam">
+            <font>
+                <Font size="14.0" />
+            </font></Button>
+        <Button fx:id="logout" layoutX="863.0" layoutY="641.0" mnemonicParsing="false" onAction="#on_logOut_clicked" text="Log Out" />
+    </children>
+</AnchorPane>

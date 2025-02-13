@@ -1,0 +1,89 @@
+/* styles.css */
+.root {
+    -fx-font-family: "Fantasy";
+    /*-fx-background-color: #FDF8F4;*/
+    -fx-background-image: url(pexels-aleksandar-pasaric-325185.jpg); /* Replace with your background image URL */
+    -fx-background-size: cover;
+}
+
+.label {
+    /*-fx-font-size: 16px;*/
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white background */
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+}
+
+.button {
+    /*-fx-font-size: 16px;*/
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white background */
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+}
+
+.checkbox {
+    /*-fx-font-size: 16px;*/
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white background */
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+}
+
+.text-field {
+    /*-fx-font-size: 16px;*/
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white background */
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+}
+
+.choice-box {
+    /*-fx-font-size: 16px;*/
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white background */
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+}
+
+.table-view {
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white background */
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+}
+
+.table-column .label {
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white background */
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+}
+
+.accordion {
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white background */
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+}
+
+.slider {
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white background */
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+}
+
+.list-view {
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white background */
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+}
+
+.combo-box{
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white background */
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+
+}
+
+.radio-button
+{
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Slightly transparent white background */
+    -fx-text-fill: black;
+    -fx-border-radius: 5px;
+
+}
+
+

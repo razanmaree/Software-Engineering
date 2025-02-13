@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.ViewCoursesDataLecturerController">
+    <children>
+        <ComboBox fx:id="course_id" layoutX="484.0" layoutY="36.0" onAction="#courseClicked" prefHeight="25.0" prefWidth="150.0" />
+        <ComboBox fx:id="subject_id" layoutX="125.0" layoutY="37.0" onAction="#subjectClicked" prefWidth="150.0" />
+        <Label fx:id="course_label" layoutX="412.0" layoutY="37.0" text="Course :">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="46.0" layoutY="37.0" text="Subject :">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <TableView fx:id="table" layoutX="217.0" layoutY="87.0" prefHeight="144.0" prefWidth="261.0">
+            <columns>
+                <TableColumn fx:id="exam_code_id" prefWidth="146.0" text="EXAM CODE" />
+                <TableColumn fx:id="duration_id" prefWidth="113.0" text="DURATION" />
+            </columns>
+        </TableView>
+        <Label fx:id="time_label" layoutX="47.0" layoutY="347.0" text="Average solution time :">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="time_id" layoutX="221.0" layoutY="349.0" prefHeight="18.0" prefWidth="163.0" text="&quot;&quot;" />
+        <Label fx:id="grades_label" layoutX="48.0" layoutY="392.0" text="Average Grades :">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="grades_id" layoutX="175.0" layoutY="392.0" prefHeight="18.0" prefWidth="163.0" text="&quot;&quot;">
+            <font>
+                <Font size="15.0" />
+            </font></Label>
+        <Label fx:id="median_label" layoutX="50.0" layoutY="433.0" text="Median :">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="median_id" layoutX="121.0" layoutY="433.0" prefHeight="18.0" prefWidth="163.0" text="&quot;&quot;">
+            <font>
+                <Font size="15.0" />
+            </font></Label>
+        <Label fx:id="distribution_label" layoutX="52.0" layoutY="480.0" prefWidth="154.0" text="Decimal Distribution :">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Button layoutX="14.0" layoutY="639.0" mnemonicParsing="false" onAction="#Back" prefHeight="27.0" prefWidth="50.0" text="Back">
+            <font>
+                <Font size="14.0" />
+            </font></Button>
+        <Button fx:id="ShowExam_id" layoutX="303.0" layoutY="239.0" mnemonicParsing="false" onAction="#ShowExam" prefHeight="30.0" prefWidth="90.0" text="Show Exam">
+            <font>
+                <Font size="14.0" />
+            </font></Button>
+        <Label fx:id="count_label" layoutX="48.0" layoutY="304.0" text="Count Of Execution :">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="count" layoutX="203.0" layoutY="304.0" prefHeight="18.0" prefWidth="163.0" text="&quot;&quot;">
+            <font>
+                <Font size="15.0" />
+            </font></Label>
+        <Line endX="-580.4000244140625" endY="1.10003662109375" layoutX="710.0" layoutY="621.0" startX="12.39996337890625" startY="1.10003662109375" />
+        <Line endX="336.89996337890625" endY="0.4000244140625" layoutX="386.0" layoutY="572.0" startX="-255.59999084472656" startY="0.4000244140625" />
+        <Line endX="-101.49996948242188" endY="81.800048828125" layoutX="386.0" layoutY="539.0" startX="-101.49996948242188" startY="-14.500030517578125" />
+        <Line endX="341.89996337890625" endY="-1.29998779296875" layoutX="380.0" layoutY="524.0" startX="-249.99996948242188" startY="-1.29998779296875" />
+        <Line endX="-58.4000244140625" endY="137.29290771484375" layoutX="738.0" layoutY="483.0" startX="-58.4000244140625" startY="41.5" />
+        <BarChart fx:id="barChat" layoutX="484.0" layoutY="260.0" prefHeight="250.0" prefWidth="350.0">
+            <xAxis>
+                <CategoryAxis side="BOTTOM" fx:id="xAxis" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis fx:id="yAxis" side="LEFT" />
+            </yAxis>
+        </BarChart >
+        <Line endX="-99.99996948242188" endY="106.29290771484375" layoutX="432.0" layoutY="514.0" startX="-99.99996948242188" startY="9.5" />
+        <Line endX="-99.99996948242188" endY="107.29290771484375" layoutX="476.0" layoutY="513.0" startX="-99.99996948242188" startY="10.5" />
+        <Line endX="-99.99996948242188" endY="107.29290771484375" layoutX="519.0" layoutY="513.0" startX="-99.99996948242188" startY="11.5" />
+        <Line endX="-99.99996948242188" endY="107.29290771484375" layoutX="562.0" layoutY="513.0" startX="-99.99996948242188" startY="10.5" />
+        <Line endX="-99.99996948242188" endY="107.29290771484375" layoutX="606.0" layoutY="513.0" startX="-99.99996948242188" startY="10.5" />
+        <Line endX="-99.99996948242188" endY="108.29290771484375" layoutX="647.0" layoutY="512.0" startX="-99.99996948242188" startY="11.5" />
+        <Line endX="-99.99996948242188" endY="111.29290771484375" layoutX="691.0" layoutY="511.0" startX="-99.99996948242188" startY="12.5" />
+        <Line endX="-99.99996948242188" endY="111.29290771484375" layoutX="733.0" layoutY="510.0" startX="-100.0" startY="13.5" />
+        <Line endX="-89.60003662109375" endY="112.60003662109375" layoutX="812.0" layoutY="509.0" startX="-89.60003662109375" startY="14.20001220703125" />
+        <Label layoutX="294.0" layoutY="588.0" text="0-10" />
+        <Label layoutX="338.0" layoutY="588.0" text="11-20" />
+        <Label layoutX="385.0" layoutY="588.0" text="21-30" />
+        <Label layoutX="429.0" layoutY="588.0" text="31-40" />
+        <Label layoutX="470.0" layoutY="588.0" text="41-50" />
+        <Label layoutX="511.0" layoutY="588.0" text="51-60" />
+        <Label layoutX="558.0" layoutY="588.0" text="61-70" />
+        <Label layoutX="600.0" layoutY="588.0" text="71-80" />
+        <Label layoutX="643.0" layoutY="588.0" text="81-90" />
+        <Label layoutX="680.0" layoutY="588.0" text="90-100" />
+        <Label fx:id="label1" layoutX="291.0" layoutY="540.0" prefHeight="18.0" prefWidth="31.0" text="&quot;" />
+        <Label fx:id="label2" layoutX="341.0" layoutY="540.0" prefHeight="18.0" prefWidth="31.0" text="&quot;" />
+        <Label fx:id="label3" layoutX="386.0" layoutY="540.0" prefHeight="18.0" prefWidth="31.0" text="&quot;" />
+        <Label fx:id="label4" layoutX="429.0" layoutY="540.0" prefHeight="18.0" prefWidth="31.0" text="&quot;" />
+        <Label fx:id="label5" layoutX="471.0" layoutY="540.0" prefHeight="18.0" prefWidth="31.0" text="&quot;" />
+        <Label fx:id="label6" layoutX="511.0" layoutY="540.0" prefHeight="18.0" prefWidth="31.0" text="&quot;" />
+        <Label fx:id="label7" layoutX="555.0" layoutY="540.0" prefHeight="18.0" prefWidth="31.0" text="&quot;" />
+        <Label fx:id="label8" layoutX="600.0" layoutY="538.0" prefHeight="18.0" prefWidth="31.0" text="&quot;" />
+        <Label fx:id="label9" layoutX="643.0" layoutY="540.0" prefHeight="18.0" prefWidth="31.0" text="&quot;" />
+        <Label fx:id="label10" layoutX="687.0" layoutY="538.0" prefHeight="18.0" prefWidth="25.0" text="&quot;" />
+        <Label layoutX="136.0" layoutY="539.0" text="Number Of Students ">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="188.0" layoutY="587.0" text="Range">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Line endX="-101.49996948242188" endY="81.800048828125" layoutX="232.0" layoutY="538.0" startX="-101.49996948242188" startY="-14.500030517578125" />
+        <Button fx:id="logout" layoutX="853.0" layoutY="639.0" mnemonicParsing="false" onAction="#on_logOut_clicked" text="Log Out">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.TestedExamController">
+    <children>
+        <Label fx:id="addcommentsLAB" layoutX="39.0" layoutY="530.0" text="Add Comments">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label fx:id="changegradeLAB" layoutX="43.0" layoutY="574.0" prefHeight="21.0" prefWidth="111.0" text="Change Grade ">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font></Label>
+        <Button fx:id="SaveChangesBT" layoutX="655.0" layoutY="527.0" mnemonicParsing="false" onAction="#on_SaveChanges_clicked" text="Save ">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+        <Button fx:id="backBT" layoutX="15.0" layoutY="639.0" mnemonicParsing="false" onAction="#on_back_clicked" text="Back">
+            <font>
+                <Font size="14.0" />
+            </font></Button>
+        <TextField fx:id="addcommentsTF" layoutX="155.0" layoutY="527.0" prefHeight="27.0" prefWidth="481.0" />
+        <TextField fx:id="changegradeTF" layoutX="155.0" layoutY="572.0" />
+        <Label fx:id="question_num_label" layoutX="62.0" layoutY="169.0" text="1">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Button fx:id="previouse" layoutX="228.0" layoutY="465.0" mnemonicParsing="false" onAction="#PREVIUOS" text="Previouse" />
+        <Button fx:id="next_id" layoutX="444.0" layoutY="465.0" mnemonicParsing="false" onAction="#NEXT" text="Next" />
+        <CheckBox fx:id="first_check" layoutX="84.0" layoutY="220.0" mnemonicParsing="false" />
+        <CheckBox fx:id="second_check" layoutX="84.0" layoutY="270.0" mnemonicParsing="false" />
+        <CheckBox fx:id="third_check" layoutX="84.0" layoutY="315.0" mnemonicParsing="false" />
+        <CheckBox fx:id="fourth_check" layoutX="84.0" layoutY="358.0" mnemonicParsing="false" />
+        <Label fx:id="dot" layoutX="71.0" layoutY="167.0" text=".">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="text_id" layoutX="85.0" layoutY="168.0" prefHeight="27.0" prefWidth="504.0" text="&quot;&quot;" />
+        <Label fx:id="first_txtf" layoutX="113.0" layoutY="215.0" prefHeight="27.0" prefWidth="468.0" text="&quot;&quot;" />
+        <Label fx:id="second_txtf" layoutX="113.0" layoutY="265.0" prefHeight="27.0" prefWidth="468.0" text="&quot;&quot;" />
+        <Label fx:id="third_txtf" layoutX="113.0" layoutY="310.0" prefHeight="27.0" prefWidth="468.0" text="&quot;&quot;" />
+        <Label fx:id="fourth_txtf" layoutX="113.0" layoutY="353.0" prefHeight="27.0" prefWidth="468.0" text="&quot;&quot;" />
+        <Label fx:id="points_label" layoutX="170.0" layoutY="399.0" text="Out Of">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label fx:id="points_value_label" layoutX="233.0" layoutY="396.0" prefHeight="26.0" prefWidth="41.0" text="0" />
+        <Label fx:id="right_answer_label" layoutX="76.0" layoutY="434.0" text="Right Answer:">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label fx:id="rightAnswer_value_label1" layoutX="187.0" layoutY="431.0" prefHeight="26.0" prefWidth="41.0" text="0" />
+        <Label fx:id="points_label1" layoutX="77.0" layoutY="399.0" text="Points:">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label fx:id="points_value_label1" layoutX="128.0" layoutY="396.0" prefHeight="26.0" prefWidth="41.0" text="0" />
+        <Label fx:id="student_id" layoutX="48.0" layoutY="36.0" text="Student ID:">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label fx:id="student_id_value" layoutX="132.0" layoutY="36.0" prefHeight="20.0" prefWidth="122.0" text="0">
+            <font>
+                <Font size="14.0" />
+            </font></Label>
+        <Label fx:id="grade_label" layoutX="430.0" layoutY="36.0" prefHeight="20.0" prefWidth="47.0" text="Grade:">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label fx:id="grade_value_label" layoutX="486.0" layoutY="37.0" prefHeight="18.0" prefWidth="95.0" text="0" />
+        <Button fx:id="ChangesBT" layoutX="323.0" layoutY="571.0" mnemonicParsing="false" onAction="#on_Change_clicked" text="Change">
+            <font>
+                <Font size="13.0" />
+            </font></Button>
+        <Label fx:id="teacher_comments_for_students" layoutX="48.0" layoutY="67.0" text="Teacher Comment For Students:">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label fx:id="teacher_comments_for_students1" layoutX="58.0" layoutY="104.0" prefHeight="45.0" prefWidth="252.0" text="tea" />
+        <Label fx:id="teacher_comments_for_her" layoutX="426.0" layoutY="67.0" text="Teacher Comments(Only For Teacher):">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></Label>
+        <Label fx:id="teacher_comments_for_her1" layoutX="435.0" layoutY="104.0" prefHeight="45.0" prefWidth="252.0" text="tea" />
+        <Button fx:id="logout" layoutX="863.0" layoutY="641.0" mnemonicParsing="false" onAction="#on_logOut_clicked" text="Log Out" />
+    </children>
+</AnchorPane>

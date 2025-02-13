@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.TeacherSelectExamToImplementController">
+
+   <!--   <stylesheets>-->
+   <!--      <URL value="@styles.css" />-->
+   <!--   </stylesheets>-->
+
+
+   <children>
+      <!--      <ImageView fitHeight="574.0" fitWidth="794.0" pickOnBounds="true" preserveRatio="true">-->
+      <!--         <image>-->
+      <!--            <Image url="@Images/pexels-simon-berger-1323550.jpg" />-->
+      <!--         </image>-->
+      <!--      </ImageView>-->
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <AnchorPane prefHeight="680.0" prefWidth="936.0">
+               <children>
+                  <TableView fx:id="exams_table" layoutX="296.0" layoutY="85.0" opacity="0.78" prefHeight="287.0" prefWidth="614.0" style="-fx-background-radius: 15;">
+                     <columns>
+                        <TableColumn fx:id="exam_id_column" prefWidth="100.0" text="EXAM ID" />
+                        <TableColumn fx:id="exam_subject_column" prefWidth="131.0" text="EXAM SUBJECT" />
+                        <TableColumn fx:id="exam_course_column" prefWidth="140.0" text="EXAM COURSE" />
+                        <TableColumn fx:id="exam_authoor_column" prefWidth="143.0" text="EXAM  AUTHER" />
+                        <TableColumn fx:id="exam_time_column" prefWidth="99.0" text="EXAM TIME" />
+                     </columns>
+                  </TableView>
+                  <Slider fx:id="points_range_slider" blockIncrement="1" layoutX="64.0" layoutY="506.0" max="500" min="0" onDragDetected="#on_drag_range" prefHeight="15.0" prefWidth="157.0" />
+                  <Button fx:id="clear_all_but" layoutX="161.0" layoutY="537.0" mnemonicParsing="false" onAction="#on_clear_all_but_pressed" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 10;" text="Clear All" />
+                  <Button fx:id="show_exam_but" layoutX="814.0" layoutY="397.0" mnemonicParsing="false" onAction="#on_show_exam_presses" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 10;" text="Show Exam">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <ListView fx:id="subjects_list" layoutX="63.0" layoutY="93.0" prefHeight="80.0" prefWidth="145.0" />
+                  <ListView fx:id="authors_list" layoutX="63.0" layoutY="365.0" prefHeight="80.0" prefWidth="145.0" />
+                  <ListView fx:id="courses_list" layoutX="63.0" layoutY="229.0" prefHeight="80.0" prefWidth="145.0" />
+                  <Label fx:id="range_label" layoutX="231.0" layoutY="503.0" prefHeight="22.0" prefWidth="41.0" text="0" />
+                  <Button fx:id="selectstudentsBT" layoutX="660.0" layoutY="397.0" mnemonicParsing="false" onAction="#OnSelectStudentsClicked" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 10;" text="Select Students">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <Label layoutX="11.0" layoutY="22.0" prefHeight="26.0" prefWidth="67.0" text="Filter By:">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font></Label>
+                  <Button fx:id="filter_but" layoutX="79.0" layoutY="537.0" mnemonicParsing="false" onAction="#on_filter" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 10;" text="Filter" />
+                  <CheckBox fx:id="subjects_check_box" layoutX="34.0" layoutY="65.0" mnemonicParsing="false" text="Subjects:">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="courses_check_box" layoutX="36.0" layoutY="200.0" mnemonicParsing="false" text="Courses:">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="authors_check_box" layoutX="36.0" layoutY="337.0" mnemonicParsing="false" text="Authors:">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <CheckBox fx:id="range_check_box" layoutX="40.0" layoutY="469.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="77.0" text="Range:">
+                     <font>
+                        <Font size="14.0" />
+                     </font></CheckBox>
+                  <Button fx:id="back_but" layoutX="11.0" layoutY="639.0" mnemonicParsing="false" onAction="#on_back_but_clicked" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 10;" text="Back">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="logout" layoutX="859.0" layoutY="641.0" mnemonicParsing="false" onAction="#on_logOut_clicked" text="Log Out" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

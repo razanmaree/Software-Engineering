@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.ViewExamsInProgressController">
+    <children>
+        <Accordion layoutX="178.0" layoutY="125.0" />
+        <TableView fx:id="tableofviewexamsinprogressTABLE" layoutX="125.0" layoutY="131.0" prefHeight="158.0" prefWidth="687.0">
+            <columns>
+                <TableColumn fx:id="Subject_id" prefWidth="165.0" text="SUBJECT" />
+                <TableColumn fx:id="Course_id" prefWidth="175.0" text="COURSE" />
+                <TableColumn fx:id="Ecexution_Code_id" prefWidth="123.0" text="EXECUTION CODE" />
+                <TableColumn fx:id="Duration_id" prefWidth="110.0" text="DURATION" />
+                <TableColumn fx:id="exam_code_id" prefWidth="112.0" text="EXAM CODE" />
+            </columns>
+        </TableView>
+        <Button fx:id="showstudentswhoexecutetheselectedexamBT" layoutX="334.0" layoutY="319.0" mnemonicParsing="false" onAction="#ShowStudentsWhoExecuteTheSelectedExam" text="Show Students Who Execute The Selected Exam" />
+        <Button fx:id="backBT" layoutX="14.0" layoutY="636.0" mnemonicParsing="false" onAction="#Back" text="Back">
+            <font>
+                <Font size="14.0" />
+            </font></Button>
+        <Label layoutX="31.0" layoutY="42.0" prefHeight="30.0" prefWidth="243.0" text="Choose An Exam Execution:">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Button fx:id="logout" layoutX="853.0" layoutY="636.0" mnemonicParsing="false" onAction="#on_logOut_clicked" text="Log Out">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

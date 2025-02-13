@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.ExamsRepositoryForManegerController">
+    <children>
+        <ComboBox fx:id="subjectComoBox" layoutX="143.0" layoutY="38.0" onAction="#subjectComoBox_pressed" prefHeight="25.0" prefWidth="184.0" />
+        <Label fx:id="subjectLabel" layoutX="59.0" layoutY="40.0" prefHeight="21.0" prefWidth="66.0" text="Subject :">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font></Label>
+        <Label fx:id="courseLabel" layoutX="59.0" layoutY="94.0" prefHeight="21.0" prefWidth="66.0" text="Course :">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font></Label>
+        <ComboBox fx:id="courseComoBox" layoutX="143.0" layoutY="92.0" onAction="#courseComoBox_pressed" prefHeight="25.0" prefWidth="184.0" />
+        <TableView fx:id="examsTableView" layoutX="198.0" layoutY="196.0" prefHeight="256.0" prefWidth="457.0">
+            <columns>
+                <TableColumn fx:id="examID_column" prefWidth="134.0" text="EXAM ID" />
+                <TableColumn fx:id="examAuther_column" prefWidth="195.0" text="EXAM AUTHER" />
+                <TableColumn fx:id="examTime_column" prefWidth="127.0" text="EXAM TIME" />
+            </columns>
+        </TableView>
+        <Button fx:id="showexam_button" layoutX="488.0" layoutY="484.0" mnemonicParsing="false" onAction="#show_exam_button_pressed" text="View Exam Body">
+            <font>
+                <Font size="14.0" />
+            </font></Button>
+        <Button fx:id="back_button" layoutX="14.0" layoutY="636.0" mnemonicParsing="false" onAction="#on_back_button_pressed" text="Back">
+            <font>
+                <Font size="14.0" />
+            </font></Button>
+        <Button fx:id="show_exam_data_button" layoutX="255.0" layoutY="484.0" mnemonicParsing="false" onAction="#on_show_exam_data_button_pressed" text="View Exam data">
+            <font>
+                <Font size="14.0" />
+            </font></Button>
+        <Button fx:id="logout" layoutX="853.0" layoutY="636.0" mnemonicParsing="false" onAction="#on_logOut_clicked" text="Log Out">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

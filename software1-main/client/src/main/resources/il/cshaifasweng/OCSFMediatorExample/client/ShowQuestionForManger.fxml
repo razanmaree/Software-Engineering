@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.ShowQuestionForMangerController">
+    <children>
+        <ComboBox fx:id="subjectComboBox" layoutX="212.0" layoutY="56.0" onAction="#onClickSubjectCB" prefHeight="25.0" prefWidth="159.0" />
+        <Label layoutX="79.0" layoutY="58.0" prefHeight="20.0" prefWidth="116.0" text="Choose Subject :">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font></Label>
+        <TableView fx:id="questionsT" layoutX="6.0" layoutY="162.0" prefHeight="251.0" prefWidth="924.0">
+            <columns>
+                <TableColumn fx:id="questionBodyC" prefWidth="281.0" text="QUESTION" />
+                <TableColumn fx:id="firstAnswerC" prefWidth="144.0" text="FIRST ANSWER" />
+                <TableColumn fx:id="secondAnswerC" prefWidth="128.0" text="SECOND ANSWER" />
+                <TableColumn fx:id="thirdAnswerC" prefWidth="123.0" text="THIRD ANSWER" />
+                <TableColumn fx:id="fourthAnswerC" prefWidth="129.0" text="FOURTH ANSWER" />
+                <TableColumn fx:id="rightAnswerC" prefWidth="118.0" text="RIGHT ANSWER" />
+            </columns>
+        </TableView>
+        <Button fx:id="backB" layoutX="318.0" layoutY="472.0" mnemonicParsing="false" onAction="#back" text="Back To Menu">
+            <font>
+                <Font size="14.0" />
+            </font></Button>
+        <Button fx:id="logout" layoutX="853.0" layoutY="636.0" mnemonicParsing="false" onAction="#on_logOut_clicked" text="Log Out">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

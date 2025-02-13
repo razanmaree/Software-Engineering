@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="680.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.TeacherGetSolvedWordFileController">
+    <children>
+        <TableView fx:id="table" layoutX="263.0" layoutY="79.0" prefHeight="250.0" prefWidth="393.0">
+            <columns>
+                <TableColumn fx:id="ID_id" prefWidth="109.0" text="ID" />
+                <TableColumn fx:id="first_name_id" prefWidth="143.0" text="FIRST NAME" />
+                <TableColumn fx:id="last_name_id" minWidth="0.0" prefWidth="139.0" text="LAST NAME" />
+            </columns>
+        </TableView>
+        <Button fx:id="btn_id" layoutX="398.0" layoutY="356.0" mnemonicParsing="false" onAction="#dawnloadButton" text="Dawnload Word File" />
+        <Button fx:id="back_id" layoutX="14.0" layoutY="641.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+        <Button fx:id="logout" layoutX="863.0" layoutY="641.0" mnemonicParsing="false" onAction="#on_logOut_clicked" text="Log Out" />
+    </children>
+</AnchorPane>

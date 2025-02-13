@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<!-- heeeeeeelo i'm changing you hkykgyuku-->
+
+<AnchorPane prefHeight="680.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.TeacherController">
+   <children>
+      <Button fx:id="CreateAquestion_id" layoutX="360.0" layoutY="83.0" mnemonicParsing="false" onAction="#CreateAquestion" prefHeight="40.0" prefWidth="237.0" text="Create  A Question">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="CreateAnexam_id" layoutX="359.0" layoutY="222.0" mnemonicParsing="false" onAction="#CreateAnExam" prefHeight="40.0" prefWidth="237.0" text="Create An Exam">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="ExamExecution_id" layoutX="359.0" layoutY="361.0" mnemonicParsing="false" onAction="#ExamExecution" prefHeight="40.0" prefWidth="237.0" text="Exam Execution">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="ViewCoursesData_id" layoutX="360.0" layoutY="574.0" mnemonicParsing="false" onAction="#ViewCoursesData" prefHeight="40.0" prefWidth="237.0" text="View Course's Data">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="ShowExamsInExecution_id" layoutX="359.0" layoutY="431.0" mnemonicParsing="false" onAction="#ShowExamsInExecution" prefHeight="39.0" prefWidth="237.0" text="Show Exams In Execution">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="ExamsWaitingToApprove_id" layoutX="360.0" layoutY="503.0" mnemonicParsing="false" onAction="#ExamsWaitingToApprove" prefHeight="39.0" prefWidth="237.0" text="Exams Waiting To Approve">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="CreateAquestion_id1" layoutX="845.0" layoutY="635.0" mnemonicParsing="false" onAction="#on_logOut_clicked" prefHeight="26.0" prefWidth="77.0" text="Log Out">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="update_a_question" layoutX="359.0" layoutY="154.0" mnemonicParsing="false" onAction="#UpdateQuestion" prefHeight="39.0" prefWidth="237.0" text="Update Question">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="update_an_exam" layoutX="359.0" layoutY="294.0" mnemonicParsing="false" onAction="#UpdateExam" prefHeight="39.0" prefWidth="237.0" text="Update An Exam">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

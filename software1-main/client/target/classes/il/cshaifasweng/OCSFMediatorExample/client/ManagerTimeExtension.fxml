@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.ManagerTimeExtensionController">
+    <children>
+        <VBox prefHeight="200.0" prefWidth="100.0">
+            <children>
+                <AnchorPane prefHeight="680.0" prefWidth="936.0">
+                    <children>
+                        <TableView fx:id="exams_data_table" layoutX="108.0" layoutY="99.0" opacity="0.68" prefHeight="242.0" prefWidth="460.0" style="-fx-background-radius: 10;">
+                            <columns>
+                                <TableColumn fx:id="execution_code_column" prefWidth="130.0" style="-fx-background-radius: 10;" text="EXECUTION CODE" />
+                                <TableColumn fx:id="student_id_column" prefWidth="112.0" style="-fx-background-radius: 10;" text="STUDENT ID" />
+                                <TableColumn fx:id="name_column" minWidth="0.0" prefWidth="92.0" style="-fx-background-radius: 10;" text="NAME" />
+                                <TableColumn fx:id="extension_time_column" prefWidth="126.0" style="-fx-background-radius: 10;" text="EXTENSION TIME" />
+                            </columns>
+                        </TableView>
+                        <Label layoutX="128.0" layoutY="353.0" prefHeight="21.0" prefWidth="421.0" style="-fx-background-color: rgb(250,250,250,0.25); -fx-background-radius: 10;" text="Choose Student From The Table And Show Message From Teacher">
+                            <font>
+                                <Font size="14.0" />
+                            </font></Label>
+                        <TextField fx:id="message_TF" layoutX="158.0" layoutY="461.0" prefHeight="65.0" prefWidth="361.0" style="-fx-background-radius: 10; -fx-background-color: rgb(255,255,255,0.5);" />
+                        <Label fx:id="message_label" layoutX="127.0" layoutY="418.0" prefHeight="34.0" prefWidth="65.0" style="-fx-background-color: rgb(255,255,255,0); -fx-background-radius: 10;" text="Message:">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font></Label>
+                        <Button fx:id="confirm_bur" layoutX="201.0" layoutY="537.0" mnemonicParsing="false" onAction="#on_confirm_but_pressed" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 10;" text="Confirm">
+                            <font>
+                                <Font size="14.0" />
+                            </font></Button>
+                        <Button fx:id="reject_but" layoutX="412.0" layoutY="537.0" mnemonicParsing="false" onAction="#on_but_reject_pressed" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 10;" text="Reject">
+                            <font>
+                                <Font size="14.0" />
+                            </font></Button>
+                        <CheckBox fx:id="select_all_check_box" layoutX="61.0" layoutY="53.0" mnemonicParsing="false" onAction="#on_select_all_checked" prefHeight="21.0" prefWidth="98.0" text="select all">
+                            <font>
+                                <Font name="System Bold" size="15.0" />
+                            </font></CheckBox>
+                        <Button fx:id="back_but" layoutX="14.0" layoutY="636.0" mnemonicParsing="false" onAction="#on_back_but_pressed" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 10;" text="Back">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                        <Button fx:id="logout" layoutX="853.0" layoutY="636.0" mnemonicParsing="false" onAction="#on_logOut_clicked" text="Log Out">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            </children>
+        </VBox>
+    </children>
+</StackPane>

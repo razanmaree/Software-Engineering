@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="936.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.ManagerController">
+    <children>
+
+        <VBox prefHeight="200.0" prefWidth="100.0">
+            <children>
+                <AnchorPane prefHeight="680.0" prefWidth="936.0">
+                    <children>
+                        <Button fx:id="show_time_extension_but" layoutX="348.0" layoutY="148.0" mnemonicParsing="false" onAction="#on_show_time_extension_pressed" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 10;" text="Show Time Extension Requests">
+                            <font>
+                                <Font size="16.0" />
+                            </font></Button>
+                        <MenuBar layoutX="3.0" layoutY="1.0" prefHeight="26.0" prefWidth="593.0" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 10;">
+                            <menus>
+                                <Menu mnemonicParsing="false" text="HomePage">
+                                    <items>
+                                        <MenuItem mnemonicParsing="false" text="Close" />
+                                    </items>
+                                </Menu>
+                                <Menu mnemonicParsing="false" text="Help">
+                                    <items>
+                                        <MenuItem mnemonicParsing="false" text="About" />
+                                    </items>
+                                </Menu>
+                            </menus>
+                        </MenuBar>
+                        <Button fx:id="questionrepository_button" layoutX="360.0" layoutY="239.0" mnemonicParsing="false" onAction="#questionrepository_buttton_pressed" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 10;" text="Show Questions Repository">
+                            <font>
+                                <Font size="16.0" />
+                            </font></Button>
+                        <Button fx:id="examsrepository_button" layoutX="374.0" layoutY="323.0" mnemonicParsing="false" onAction="#examsrepository_button_pressed" style="-fx-background-color: rgb(255,255,255,0.5); -fx-background-radius: 10;" text="Show Exams Repository">
+                            <font>
+                                <Font size="16.0" />
+                            </font></Button>
+                        <Button fx:id="logout" layoutX="853.0" layoutY="636.0" mnemonicParsing="false" onAction="#on_logOut_clicked" text="Log Out">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            </children>
+        </VBox>
+    </children>
+</StackPane>

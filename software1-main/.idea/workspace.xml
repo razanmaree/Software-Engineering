@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="G15_Client:jar" />
+      <artifact name="G15_Server:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="111e8025-be5e-4e55-b0f2-1b207f5b383d" name="Changes" comment="last commit everrrrr" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="92385dbe-7be7-443c-a3e5-92a382e9f2bb" />
+        <option name="url" value="https://github.com/wesal-amasha/software1.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Pn3PVBZyhro8X0l4GO23V5UJRq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/HP/Desktop/test/software1-main",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.16613925",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="il.cshaifasweng.OCSFMediatorExample.entities.entities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wesal\OneDrive\שולחן העבודה\software_before_login\software\client\src\main\resources\il\cshaifasweng\OCSFMediatorExample\client" />
+      <recent name="C:\Users\wesal\OneDrive\שולחן העבודה\software_before_login\software\client\src\main\java\il\cshaifasweng\OCSFMediatorExample\client" />
+      <recent name="C:\Users\wesal\OneDrive\שולחן העבודה\software_last\client\src\main\resources\il\cshaifasweng\OCSFMediatorExample\client" />
+      <recent name="C:\Users\wesal\OneDrive\שולחן העבודה\software_last\client\src\main\java\il\cshaifasweng\OCSFMediatorExample\client" />
+      <recent name="C:\Users\wesal\OneDrive\שולחן העבודה\helloocsf-wesal-amasha\entities\src\main\hello_hibernate" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wesal\שולחן העבודה\new_trying_to_cache_pages\client\src\main\resources\il\cshaifasweng\OCSFMediatorExample\client" />
+      <recent name="C:\Users\wesal\שולחן העבודה\new_trying_to_cache_pages\client\src\main\java\il\cshaifasweng\OCSFMediatorExample\client" />
+      <recent name="C:\Users\wesal\שולחן העבודה\new_trying_to_cache_pages\entities\src\main\java\il\cshaifasweng\OCSFMediatorExample\entities\entities" />
+      <recent name="C:\Users\wesal\שולחן העבודה\newwww\client\src\main\java\il\cshaifasweng\OCSFMediatorExample\client\ocsf" />
+      <recent name="C:\Users\wesal\OneDrive\שולחן העבודה\software1\server" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="il.cshaifasweng.OCSFMediatorExample.client" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="il.cshaifasweng.OCSFMediatorExample.entities.entities" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.client [javafx:run]">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="helloocsf-wesal-amasha" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="helloocsf-wesal-amasha" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OCSFMediatorExample [install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="client [javafx:run]" type="MavenRunConfiguration" factoryName="Maven" singleton="false" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map>
+                <entry key="exec.args" value="localhost 3000" />
+              </map>
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="--module-path &quot;C:\Users\HP\Desktop\קורסים\שנה ג- סמסטר ב\Software Engineering\Applications for java\JAVA\javafx-sdk-20\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="javafx:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/client" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="server [exec:java]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map>
+                <entry key="exec.args" value="3000" />
+              </map>
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="exec:java" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.OCSFMediatorExample [install]" />
+      <item itemvalue="Maven.client [javafx:run]" />
+      <item itemvalue="Maven.server [exec:java]" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="111e8025-be5e-4e55-b0f2-1b207f5b383d" name="Changes" comment="updated with my and razan's additions!" />
+      <created>1684078994703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684078994703</updated>
+      <workItem from="1684078996138" duration="4458000" />
+      <workItem from="1684084767626" duration="8005000" />
+      <workItem from="1684132151649" duration="15900000" />
+      <workItem from="1684152043463" duration="5841000" />
+      <workItem from="1684174159948" duration="8049000" />
+      <workItem from="1684203098926" duration="3799000" />
+      <workItem from="1684206948536" duration="50065000" />
+      <workItem from="1684338550334" duration="172000" />
+      <workItem from="1684351632556" duration="10000" />
+      <workItem from="1684351678449" duration="7092000" />
+      <workItem from="1684390317686" duration="7519000" />
+      <workItem from="1684672522616" duration="7883000" />
+      <workItem from="1684681715161" duration="659000" />
+      <workItem from="1684682822362" duration="5000" />
+      <workItem from="1684682838514" duration="4870000" />
+      <workItem from="1684784135714" duration="49000" />
+      <workItem from="1684785225019" duration="5000" />
+      <workItem from="1684811632682" duration="2076000" />
+      <workItem from="1684824052618" duration="240000" />
+      <workItem from="1684833501861" duration="778000" />
+      <workItem from="1684836256108" duration="122000" />
+      <workItem from="1684869114050" duration="13000" />
+      <workItem from="1685516561825" duration="84000" />
+      <workItem from="1685557655583" duration="841000" />
+      <workItem from="1685793813607" duration="882000" />
+      <workItem from="1685953459316" duration="4222000" />
+      <workItem from="1685957732117" duration="3936000" />
+      <workItem from="1686165555515" duration="1662000" />
+      <workItem from="1686167507600" duration="1396000" />
+      <workItem from="1686219154227" duration="759000" />
+      <workItem from="1686220007577" duration="1447000" />
+      <workItem from="1686221850998" duration="286000" />
+      <workItem from="1686222152231" duration="4980000" />
+      <workItem from="1686398295714" duration="1210000" />
+      <workItem from="1686404104686" duration="553000" />
+      <workItem from="1686662800696" duration="61000" />
+      <workItem from="1686663619242" duration="587000" />
+      <workItem from="1686664284981" duration="565000" />
+      <workItem from="1688989319877" duration="64500000" />
+      <workItem from="1689598539490" duration="9602000" />
+      <workItem from="1689655794530" duration="19000" />
+      <workItem from="1689657195018" duration="99000" />
+      <workItem from="1689662463637" duration="46414000" />
+      <workItem from="1689740877012" duration="37833000" />
+      <workItem from="1689831089494" duration="50247000" />
+      <workItem from="1689958912584" duration="13797000" />
+      <workItem from="1690528358594" duration="55431000" />
+      <workItem from="1690967314319" duration="12778000" />
+      <workItem from="1691030844953" duration="2708000" />
+      <workItem from="1691080337769" duration="24259000" />
+      <workItem from="1691165317807" duration="5311000" />
+      <workItem from="1691206323600" duration="22210000" />
+      <workItem from="1691301891603" duration="16076000" />
+      <workItem from="1691395602994" duration="22451000" />
+      <workItem from="1691425047639" duration="4183000" />
+      <workItem from="1691472506832" duration="47882000" />
+      <workItem from="1691570014996" duration="13332000" />
+      <workItem from="1691604976855" duration="9873000" />
+      <workItem from="1691648937409" duration="4530000" />
+      <workItem from="1691653775944" duration="999000" />
+      <workItem from="1691654806754" duration="6000" />
+      <workItem from="1691655184619" duration="3880000" />
+      <workItem from="1691659242115" duration="20432000" />
+    </task>
+    <task id="LOCAL-00072" summary="examexecutiondigitalcontroller, examexecutionmanualcontroller, back button is visible only if the student did not start the exam !!!!">
+      <created>1691151658389</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1691151658389</updated>
+    </task>
+    <task id="LOCAL-00073" summary="time extension manager to recieve only valid time requests !!!">
+      <created>1691152565942</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1691152565942</updated>
+    </task>
+    <task id="LOCAL-00074" summary="added : TeacherGetSolvedWordFile.fxml,&#10;viewExamsToApprove.fxml,&#10;ViewExamsToApproveController,&#10;TeacherGetSolvedWordFileController,&#10;ViewExamsToApproveController">
+      <created>1691171855203</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1691171855205</updated>
+    </task>
+    <task id="LOCAL-00075" summary="added : teacherCheckExamByImplementionCodeController">
+      <created>1691172272075</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1691172272075</updated>
+    </task>
+    <task id="LOCAL-00076" summary="added : teacherCheckExamByImplementionCodeController">
+      <created>1691172283315</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1691172283315</updated>
+    </task>
+    <task id="LOCAL-00077" summary="TestedExamController is almost finished &#10;and some little updates to examexecutionmanual and digital related to time extension requests">
+      <created>1691253254608</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1691253254608</updated>
+    </task>
+    <task id="LOCAL-00078" summary="TestedExamController is finished !!!!!!">
+      <created>1691258645848</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1691258645848</updated>
+    </task>
+    <task id="LOCAL-00079" summary="TeacherGetSolvedWordFile is finished !!!!!!">
+      <created>1691260156626</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1691260156626</updated>
+    </task>
+    <task id="LOCAL-00080" summary="add function in app: getApprovedSolvedExamsbyCourseIdAndStudentId">
+      <created>1691261458600</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1691261458600</updated>
+    </task>
+    <task id="LOCAL-00081" summary="ListOfStudentsWhoExecuteAnExamController is finished">
+      <created>1691313723717</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1691313723717</updated>
+    </task>
+    <task id="LOCAL-00082" summary="ListOfStudentsWhoExecuteAnExamController is finished">
+      <created>1691313841607</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1691313841607</updated>
+    </task>
+    <task id="LOCAL-00083" summary="teacherCheckExamByImplementionCode is almost finished, still onApprove !!!!!">
+      <created>1691318388271</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1691318388271</updated>
+    </task>
+    <task id="LOCAL-00084" summary="teacherCheckExamByImplementionCode is almost finished, still onApprove !!!!!">
+      <created>1691318427407</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1691318427407</updated>
+    </task>
+    <task id="LOCAL-00085" summary="lecturer_id added">
+      <created>1691399220967</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1691399220967</updated>
+    </task>
+    <task id="LOCAL-00086" summary="teacherCheckExamByImplementionCodeController is finished!!!">
+      <created>1691401425763</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1691401425763</updated>
+    </task>
+    <task id="LOCAL-00087" summary="teacher comments added to ExamExecutionDigital">
+      <created>1691402966500</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1691402966500</updated>
+    </task>
+    <task id="LOCAL-00088" summary="ViewDataStudentController&#10;ViewSolvedExamByStudentController&#10;were added">
+      <created>1691403431451</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1691403431451</updated>
+    </task>
+    <task id="LOCAL-00089" summary="the comments of the teacher for students appears now in the word file !!!">
+      <created>1691404421698</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1691404421698</updated>
+    </task>
+    <task id="LOCAL-00090" summary="the comments of the teacher for students and the comments for her  appears now in the tested exam!!!">
+      <created>1691405462272</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1691405462272</updated>
+    </task>
+    <task id="LOCAL-00091" summary="the comments of the teacher for students and the comments for her  appears now in the tested exam!!!">
+      <created>1691406782956</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1691406782956</updated>
+    </task>
+    <task id="LOCAL-00092" summary="logoutttt!!!!">
+      <created>1691412319133</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1691412319134</updated>
+    </task>
+    <task id="LOCAL-00093" summary="TeacherSelectExamToImplementController is finished!!!">
+      <created>1691429133193</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1691429133194</updated>
+    </task>
+    <task id="LOCAL-00094" summary="TeacherSelectExamToImplementController is finished!!!">
+      <created>1691429179971</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1691429179971</updated>
+    </task>
+    <task id="LOCAL-00095" summary="execution_code is now string of 4 characters!!!!">
+      <created>1691482845255</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1691482845255</updated>
+    </task>
+    <task id="LOCAL-00096" summary="update question added to the teacher functionality!!!!!">
+      <created>1691494753746</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1691494753746</updated>
+    </task>
+    <task id="LOCAL-00097" summary="ShowQuestionForMangerController added and it's finished!">
+      <created>1691496058408</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1691496058408</updated>
+    </task>
+    <task id="LOCAL-00098" summary="ExamsRepositoryForManegerController added and it's finished!">
+      <created>1691499521883</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1691499521883</updated>
+    </task>
+    <task id="LOCAL-00099" summary="ExamsRepositoryForManegerController added and it's finished!">
+      <created>1691499654054</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1691499654054</updated>
+    </task>
+    <task id="LOCAL-00100" summary="exam update in TeacherController is finishedddd!!!!!!!!">
+      <created>1691506675507</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1691506675507</updated>
+    </task>
+    <task id="LOCAL-00101" summary="ExamResultsForMangerController is finished!!!!">
+      <created>1691550575474</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1691550575475</updated>
+    </task>
+    <task id="LOCAL-00102" summary="ExamResultsForMangerController is finished!!!!">
+      <created>1691550678178</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1691550678178</updated>
+    </task>
+    <task id="LOCAL-00103" summary="ViewCoursesDataLecturer and ViewSolvedExamByStudent and ViewSolvedExamByStudent is finished!!!!">
+      <created>1691564487268</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1691564487268</updated>
+    </task>
+    <task id="LOCAL-00104" summary="refresh student finished!!!!">
+      <created>1691574976754</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1691574976755</updated>
+    </task>
+    <task id="LOCAL-00105" summary="refresh:&#10;ListOfStudentsWhoExecuteAnExamController&#10; ManagerTimeExtensionController&#10; ViewExamsInProgressController&#10; ViewExamsToApproveController&#10; &#10; finished!!!!">
+      <created>1691584630938</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1691584630939</updated>
+    </task>
+    <task id="LOCAL-00106" summary="refresh:&#10;ExamResultsForMangerController&#10;ExamsRepositoryForManegerController&#10;ShowQuestionForMangerController&#10;ViewDataStudentController">
+      <created>1691609014532</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1691609014532</updated>
+    </task>
+    <task id="LOCAL-00107" summary="you can add logout button any were you want !! just add a button and make it's on action to be : on_logOut_clicked">
+      <created>1691614659005</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1691614659005</updated>
+    </task>
+    <task id="LOCAL-00108" summary="you can add logout button any were you want !! just add a button and make it's on action to be : on_logOut_clicked">
+      <created>1691614699989</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1691614699989</updated>
+    </task>
+    <task id="LOCAL-00109" summary="styles!!">
+      <created>1691651767387</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1691651767388</updated>
+    </task>
+    <task id="LOCAL-00110" summary="styles!!">
+      <created>1691651836422</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1691651836422</updated>
+    </task>
+    <task id="LOCAL-00111" summary="styles!!">
+      <created>1691651853983</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1691651853983</updated>
+    </task>
+    <task id="LOCAL-00112" summary="jar trying!!">
+      <created>1691652933067</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1691652933067</updated>
+    </task>
+    <task id="LOCAL-00113" summary="new class in entities with relations">
+      <created>1691663650558</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1691663650558</updated>
+    </task>
+    <task id="LOCAL-00114" summary="teacher select exam to implement">
+      <created>1691670175229</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1691670175229</updated>
+    </task>
+    <task id="LOCAL-00115" summary="refresh for all pages is finished !!!!!!!!!1">
+      <created>1691674091908</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1691674091908</updated>
+    </task>
+    <task id="LOCAL-00116" summary="refresh for all pages is finished !!!!!!!!!1">
+      <created>1691674159404</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1691674159404</updated>
+    </task>
+    <task id="LOCAL-00117" summary="design finished!!!!!!!!!!">
+      <created>1691675428193</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1691675428193</updated>
+    </task>
+    <task id="LOCAL-00118" summary="app finished!!!!!!!!">
+      <created>1691679467694</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1691679467694</updated>
+    </task>
+    <task id="LOCAL-00119" summary="last commit everrrrr">
+      <created>1691679852497</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1691679852497</updated>
+    </task>
+    <task id="LOCAL-00120" summary="last commit everrrrr">
+      <created>1691679888850</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1691679888850</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="teacher comments added to ExamExecutionDigital" />
+    <MESSAGE value="ViewDataStudentController&#10;ViewSolvedExamByStudentController&#10;were added" />
+    <MESSAGE value="the comments of the teacher for students appears now in the word file !!!" />
+    <MESSAGE value="the comments of the teacher for students and the comments for her  appears now in the tested exam!!!" />
+    <MESSAGE value="logoutttt!!!!" />
+    <MESSAGE value="TeacherSelectExamToImplementController is finished!!!" />
+    <MESSAGE value="execution_code is now string of 4 characters!!!!" />
+    <MESSAGE value="update question added to the teacher functionality!!!!!" />
+    <MESSAGE value="ShowQuestionForMangerController added and it's finished!" />
+    <MESSAGE value="ExamsRepositoryForManegerController added and it's finished!" />
+    <MESSAGE value="exam update in TeacherController is finishedddd!!!!!!!!" />
+    <MESSAGE value="ExamResultsForMangerController is finished!!!!" />
+    <MESSAGE value="ViewCoursesDataLecturer and ViewSolvedExamByStudent and ViewSolvedExamByStudent is finished!!!!" />
+    <MESSAGE value="refresh student finished!!!!" />
+    <MESSAGE value="refresh:&#10;ListOfStudentsWhoExecuteAnExamController&#10; ManagerTimeExtensionController&#10; ViewExamsInProgressController&#10; ViewExamsToApproveController&#10; &#10; finished!!!!" />
+    <MESSAGE value="refresh:&#10;ExamResultsForMangerController&#10;ExamsRepositoryForManegerController&#10;ShowQuestionForMangerController&#10;ViewDataStudentController" />
+    <MESSAGE value="you can add logout button any were you want !! just add a button and make it's on action to be : on_logOut_clicked" />
+    <MESSAGE value="styles!!" />
+    <MESSAGE value="jar trying!!" />
+    <MESSAGE value="new class in entities with relations" />
+    <MESSAGE value="teacher select exam to implement" />
+    <MESSAGE value="refresh for all pages is finished !!!!!!!!!1" />
+    <MESSAGE value="design finished!!!!!!!!!!" />
+    <MESSAGE value="app finished!!!!!!!!" />
+    <MESSAGE value="last commit everrrrr" />
+    <option name="LAST_COMMIT_MESSAGE" value="last commit everrrrr" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.io.NotSerializableException" package="java.io" />
+          <option name="timeStamp" value="44" />
+        </breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="48" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="javax.persistence.TransactionRequiredException" package="javax.persistence" />
+          <option name="timeStamp" value="49" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/entities/src/main/java/il/cshaifasweng/OCSFMediatorExample/entities/entities/Course.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
